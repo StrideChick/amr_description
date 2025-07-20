@@ -1,0 +1,2269 @@
+<?xml version="1.0" ?>
+<!-- Generated using onshape-to-robot -->
+<!-- Onshape https://cad.onshape.com/documents/a09fd05328fc366efe3f9ac6/w/752f0728bc86dcc6a03ab521/e/eda93f739a62957b3c4e2655 -->
+<robot name="amr">
+  <!-- Link base_link -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0.0687488 0.0294767 0.098557" rpy="0 0 0"/>
+      <mass value="2.92131"/>
+      <inertia ixx="0.048525" ixy="-3.68862e-10" ixz="-1.69696e-10" iyy="0.0366377" iyz="-0.00410729" izz="0.0599864"/>
+    </inertial>
+    <!-- Part part_1 -->
+    <visual>
+      <origin xyz="0.0307488 -0.15862 0.0343124" rpy="-3.14159 -3.27999e-09 -3.21631e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1.stl"/>
+      </geometry>
+      <material name="part_1_material">
+        <color rgba="0.4 0.4 0.4 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0307488 -0.15862 0.0343124" rpy="-3.14159 -3.27999e-09 -3.21631e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_2 -->
+    <visual>
+      <origin xyz="0.191749 0.22333 0.168312" rpy="1.5708 3.14136e-09 -1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__2.stl"/>
+      </geometry>
+      <material name="part_1_2_material">
+        <color rgba="0.4 0.4 0.4 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.191749 0.22333 0.168312" rpy="1.5708 3.14136e-09 -1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_3 -->
+    <visual>
+      <origin xyz="0.0717488 0.22333 0.0773124" rpy="1.5708 3.27999e-09 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__3.stl"/>
+      </geometry>
+      <material name="part_1_3_material">
+        <color rgba="0.4 0.4 0.4 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0717488 0.22333 0.0773124" rpy="1.5708 3.27999e-09 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hfs5_2020_140 -->
+    <visual>
+      <origin xyz="0.178749 0.21333 0.00431235" rpy="3.14159 3.27999e-09 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_140.stl"/>
+      </geometry>
+      <material name="hfs5_2020_140_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.178749 0.21333 0.00431235" rpy="3.14159 3.27999e-09 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_140.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hfs5_2020_80 -->
+    <visual>
+      <origin xyz="-0.0412512 -0.15667 0.0743124" rpy="1.5708 -3.27999e-09 -3.21631e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_80.stl"/>
+      </geometry>
+      <material name="hfs5_2020_80_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0412512 -0.15667 0.0743124" rpy="1.5708 -3.27999e-09 -3.21631e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_80.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_4 -->
+    <visual>
+      <origin xyz="0.188749 -0.11667 -0.0431876" rpy="-3.21631e-08 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__4.stl"/>
+      </geometry>
+      <material name="part_1_4_material">
+        <color rgba="0.4 0.4 0.4 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.188749 -0.11667 -0.0431876" rpy="-3.21631e-08 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__4.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part caf5_2020_200 -->
+    <visual>
+      <origin xyz="-0.0312512 -0.16667 -0.00568765" rpy="1.5708 3.14136e-09 -1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/caf5_2020_200.stl"/>
+      </geometry>
+      <material name="caf5_2020_200_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0312512 -0.16667 -0.00568765" rpy="1.5708 3.14136e-09 -1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/caf5_2020_200.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hfs5_2020_400 -->
+    <visual>
+      <origin xyz="0.178749 -0.17667 -0.00568765" rpy="-1.5708 3.27999e-09 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_400.stl"/>
+      </geometry>
+      <material name="hfs5_2020_400_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.178749 -0.17667 -0.00568765" rpy="-1.5708 3.27999e-09 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_400.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_5 -->
+    <visual>
+      <origin xyz="-0.0512512 -0.11667 -0.0431876" rpy="3.14159 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__4.stl"/>
+      </geometry>
+      <material name="part_1_5_material">
+        <color rgba="0.4 0.4 0.4 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0512512 -0.11667 -0.0431876" rpy="3.14159 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__4.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_6 -->
+    <visual>
+      <origin xyz="-0.0512512 0.22333 0.164312" rpy="3.14136e-09 -3.27999e-09 -3.21631e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__5.stl"/>
+      </geometry>
+      <material name="part_1_6_material">
+        <color rgba="0.4 0.4 0.4 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0512512 0.22333 0.164312" rpy="3.14136e-09 -3.27999e-09 -3.21631e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__5.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part caf5_2020_200_2 -->
+    <visual>
+      <origin xyz="-0.0312512 -0.0475462 0.0743124" rpy="1.5708 3.14136e-09 -1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/caf5_2020_200.stl"/>
+      </geometry>
+      <material name="caf5_2020_200_2_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0312512 -0.0475462 0.0743124" rpy="1.5708 3.14136e-09 -1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/caf5_2020_200.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part caf5_2020_200_3 -->
+    <visual>
+      <origin xyz="-0.0312512 -0.16667 0.0743124" rpy="1.5708 3.14146e-09 -1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/caf5_2020_200.stl"/>
+      </geometry>
+      <material name="caf5_2020_200_3_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0312512 -0.16667 0.0743124" rpy="1.5708 3.14146e-09 -1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/caf5_2020_200.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hfs5_2020_80_2 -->
+    <visual>
+      <origin xyz="0.178749 -0.15667 0.0743124" rpy="1.5708 -3.28e-09 -3.21631e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_80.stl"/>
+      </geometry>
+      <material name="hfs5_2020_80_2_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.178749 -0.15667 0.0743124" rpy="1.5708 -3.28e-09 -3.21631e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_80.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hfs5_2020_140_2 -->
+    <visual>
+      <origin xyz="-0.0412512 0.21333 0.00431235" rpy="-3.14159 3.14137e-09 -1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_140.stl"/>
+      </geometry>
+      <material name="hfs5_2020_140_2_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0412512 0.21333 0.00431235" rpy="-3.14159 3.14137e-09 -1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_140.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part caf5_2020_200_4 -->
+    <visual>
+      <origin xyz="-0.0312512 0.21333 0.154312" rpy="-3.21631e-08 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/caf5_2020_200.stl"/>
+      </geometry>
+      <material name="caf5_2020_200_4_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0312512 0.21333 0.154312" rpy="-3.21631e-08 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/caf5_2020_200.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part caf5_2020_200_5 -->
+    <visual>
+      <origin xyz="-0.0312512 0.21333 -0.00568765" rpy="-3.21631e-08 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/caf5_2020_200.stl"/>
+      </geometry>
+      <material name="caf5_2020_200_5_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0312512 0.21333 -0.00568765" rpy="-3.21631e-08 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/caf5_2020_200.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_7 -->
+    <visual>
+      <origin xyz="0.0687488 0.0733304 0.179312" rpy="3.14159 -3.14136e-09 1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__6.stl"/>
+      </geometry>
+      <material name="part_1_7_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0687488 0.0733304 0.179312" rpy="3.14159 -3.14136e-09 1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__6.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part caf5_2020_200_6 -->
+    <visual>
+      <origin xyz="-0.0312512 -0.0666696 0.154312" rpy="1.5708 3.14136e-09 -1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/caf5_2020_200.stl"/>
+      </geometry>
+      <material name="caf5_2020_200_6_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0312512 -0.0666696 0.154312" rpy="1.5708 3.14136e-09 -1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/caf5_2020_200.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hfs5_2020_140_3 -->
+    <visual>
+      <origin xyz="-0.0412512 -0.0666696 0.00431235" rpy="3.14159 3.27999e-09 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_140.stl"/>
+      </geometry>
+      <material name="hfs5_2020_140_3_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0412512 -0.0666696 0.00431235" rpy="3.14159 3.27999e-09 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_140.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_8 -->
+    <visual>
+      <origin xyz="-0.0512512 -0.0796696 0.0843124" rpy="3.14136e-09 -3.27999e-09 -3.21631e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__7.stl"/>
+      </geometry>
+      <material name="part_1_8_material">
+        <color rgba="0.4 0.4 0.4 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0512512 -0.0796696 0.0843124" rpy="3.14136e-09 -3.27999e-09 -3.21631e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__7.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hfs5_2020_80_3 -->
+    <visual>
+      <origin xyz="0.178749 -0.16667 0.0843124" rpy="3.14138e-09 -3.27999e-09 -3.21631e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_80.stl"/>
+      </geometry>
+      <material name="hfs5_2020_80_3_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.178749 -0.16667 0.0843124" rpy="3.14138e-09 -3.27999e-09 -3.21631e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_80.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hfs5_2020_300 -->
+    <visual>
+      <origin xyz="0.178749 0.22333 0.154312" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_300.stl"/>
+      </geometry>
+      <material name="hfs5_2020_300_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.178749 0.22333 0.154312" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_300.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_9 -->
+    <visual>
+      <origin xyz="-0.0512512 0.22333 0.168312" rpy="1.5708 3.14136e-09 -1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__2.stl"/>
+      </geometry>
+      <material name="part_1_9_material">
+        <color rgba="0.4 0.4 0.4 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0512512 0.22333 0.168312" rpy="1.5708 3.14136e-09 -1.5708"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_10 -->
+    <visual>
+      <origin xyz="0.188749 -0.0766696 0.0663124" rpy="-1.5708 3.27999e-09 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__7.stl"/>
+      </geometry>
+      <material name="part_1_10_material">
+        <color rgba="0.4 0.4 0.4 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.188749 -0.0766696 0.0663124" rpy="-1.5708 3.27999e-09 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__7.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hfs5_2020_400_2 -->
+    <visual>
+      <origin xyz="-0.0412512 -0.17667 -0.00568765" rpy="-1.5708 3.27999e-09 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_400.stl"/>
+      </geometry>
+      <material name="hfs5_2020_400_2_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0412512 -0.17667 -0.00568765" rpy="-1.5708 3.27999e-09 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_400.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_11 -->
+    <visual>
+      <origin xyz="0.168749 -0.17667 0.00431235" rpy="-3.14146e-09 3.27999e-09 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__8.stl"/>
+      </geometry>
+      <material name="part_1_11_material">
+        <color rgba="0.647059 0.647059 0.647059 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.168749 -0.17667 0.00431235" rpy="-3.14146e-09 3.27999e-09 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__8.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hfs5_2020_300_2 -->
+    <visual>
+      <origin xyz="-0.0412512 0.22333 0.154312" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_300.stl"/>
+      </geometry>
+      <material name="hfs5_2020_300_2_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0412512 0.22333 0.154312" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_300.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hfs5_2020_80_4 -->
+    <visual>
+      <origin xyz="-0.0412512 -0.16667 0.0843124" rpy="3.14136e-09 -3.27999e-09 -3.21631e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_80.stl"/>
+      </geometry>
+      <material name="hfs5_2020_80_4_material">
+        <color rgba="0.690196 0.690196 0.690196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0412512 -0.16667 0.0843124" rpy="3.14136e-09 -3.27999e-09 -3.21631e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/hfs5_2020_80.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link part_1 -->
+  <link name="part_1">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_1_12 -->
+    <visual>
+      <origin xyz="-0.0379882 -2.57573e-05 -0.02105" rpy="1.5708 1.23226e-24 1.43513e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__9.stl"/>
+      </geometry>
+      <material name="part_1_12_material">
+        <color rgba="0.796078 0.823529 0.937255 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0379882 -2.57573e-05 -0.02105" rpy="1.5708 1.23226e-24 1.43513e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part_1__9.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from base_link to part_1 -->
+  <joint name="realsense_link" type="fixed">
+    <origin xyz="0.0687476 -0.17967 0.0343106" rpy="1.5708 -3.27999e-09 -3.21631e-08"/>
+    <parent link="base_link"/>
+    <child link="part_1"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10"/>
+  </joint>
+  <!-- Link part2 -->
+  <link name="part2">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part2 -->
+    <visual>
+      <origin xyz="0 0 -1.38778e-17" rpy="-3.14159 9.00842e-26 -5.82081e-24"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part2.stl"/>
+      </geometry>
+      <material name="part2_material">
+        <color rgba="0.25098 0.25098 0.25098 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -1.38778e-17" rpy="-3.14159 9.00842e-26 -5.82081e-24"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/part2.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from base_link to part2 -->
+  <joint name="2d_lidar_link" type="fixed">
+    <origin xyz="0.0687488 -0.13117 0.0873124" rpy="-3.14159 3.14136e-09 -1.5708"/>
+    <parent link="base_link"/>
+    <child link="part2"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10"/>
+  </joint>
+  <!-- Link assembly_1 -->
+  <link name="assembly_1">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528 -->
+    <visual>
+      <origin xyz="-0.0076982 -0.0991697 -0.0011" rpy="-3.14159 1.21796e-15 -3.21632e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_material">
+        <color rgba="0.596078 0.666667 0.686275 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0076982 -0.0991697 -0.0011" rpy="-3.14159 1.21796e-15 -3.21632e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_2 -->
+    <visual>
+      <origin xyz="-0.00769911 -0.0991921 -0.0035" rpy="-3.14159 1.11716e-15 -4.44089e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__2.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_2_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00769911 -0.0991921 -0.0035" rpy="-3.14159 1.11716e-15 -4.44089e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_3 -->
+    <visual>
+      <origin xyz="1.58467 0.632898 -0.0161" rpy="1.13386e-15 1.07714e-15 -3.21632e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__3.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_3_material">
+        <color rgba="0.596078 0.666667 0.686275 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.58467 0.632898 -0.0161" rpy="1.13386e-15 1.07714e-15 -3.21632e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_4 -->
+    <visual>
+      <origin xyz="0.0462411 0.0107203 -0.00085" rpy="-3.14159 -1.02534e-15 1.82246"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__4.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_4_material">
+        <color rgba="0.596078 0.666667 0.686275 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0462411 0.0107203 -0.00085" rpy="-3.14159 -1.02534e-15 1.82246"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__4.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_5 -->
+    <visual>
+      <origin xyz="-0.00769918 -0.0987291 -0.0035" rpy="-3.14159 9.88775e-26 8.25861e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__5.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_5_material">
+        <color rgba="1 0.6 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00769918 -0.0987291 -0.0035" rpy="-3.14159 9.88775e-26 8.25861e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__5.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_6 -->
+    <visual>
+      <origin xyz="-0.00769819 0.145884 -0.0149" rpy="7.44191e-16 1.21796e-15 -3.21632e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__6.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_6_material">
+        <color rgba="0.596078 0.666667 0.686275 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00769819 0.145884 -0.0149" rpy="7.44191e-16 1.21796e-15 -3.21632e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__6.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_7 -->
+    <visual>
+      <origin xyz="-0.0573659 0.0462627 -0.00085" rpy="3.14159 -7.29937e-16 -2.88993"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__7.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_7_material">
+        <color rgba="0.596078 0.666667 0.686275 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0573659 0.0462627 -0.00085" rpy="3.14159 -7.29937e-16 -2.88993"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__7.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_8 -->
+    <visual>
+      <origin xyz="-0.0076982 -0.0991697 -0.0035" rpy="-3.14159 -3.14713e-25 -2.36015e-24"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__8.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_8_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0076982 -0.0991697 -0.0035" rpy="-3.14159 -3.14713e-25 -2.36015e-24"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__8.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_9 -->
+    <visual>
+      <origin xyz="-0.0076982 -0.0991697 -0.0011" rpy="-3.14159 1.11716e-15 -4.44089e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__9.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_9_material">
+        <color rgba="0.596078 0.666667 0.686275 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0076982 -0.0991697 -0.0011" rpy="-3.14159 1.11716e-15 -4.44089e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__9.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_10 -->
+    <visual>
+      <origin xyz="0.0543691 0.145884 -0.00118412" rpy="3.14159 -1.11716e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__10.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_10_material">
+        <color rgba="0.596078 0.666667 0.686275 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0543691 0.145884 -0.00118412" rpy="3.14159 -1.11716e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__10.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_11 -->
+    <visual>
+      <origin xyz="0.0509043 -0.0453933 -0.00115" rpy="-3.14159 -2.3759e-16 1.07842"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__11.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_11_material">
+        <color rgba="0.596078 0.666667 0.686275 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0509043 -0.0453933 -0.00115" rpy="-3.14159 -2.3759e-16 1.07842"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__11.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_12 -->
+    <visual>
+      <origin xyz="-0.00769819 0.145884 -0.0161" rpy="7.44191e-16 1.21796e-15 -3.21632e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__12.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_12_material">
+        <color rgba="0.596078 0.666667 0.686275 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00769819 0.145884 -0.0161" rpy="7.44191e-16 1.21796e-15 -3.21632e-08"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__12.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_13 -->
+    <visual>
+      <origin xyz="-0.0076982 -0.0991697 -0.00118412" rpy="-3.14159 1.11716e-15 -4.44089e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__13.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_13_material">
+        <color rgba="0.596078 0.666667 0.686275 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0076982 -0.0991697 -0.00118412" rpy="-3.14159 1.11716e-15 -4.44089e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__13.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_14 -->
+    <visual>
+      <origin xyz="-0.0076982 -0.0991697 -0.0011" rpy="-3.14159 1.07714e-15 -4.37645e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__14.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_14_material">
+        <color rgba="0.596078 0.666667 0.686275 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0076982 -0.0991697 -0.0011" rpy="-3.14159 1.07714e-15 -4.37645e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__14.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_15 -->
+    <visual>
+      <origin xyz="-0.0076982 -0.0993697 -0.0035" rpy="3.14159 1.11716e-15 -4.44089e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__15.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_15_material">
+        <color rgba="0.447059 0.415686 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0076982 -0.0993697 -0.0035" rpy="3.14159 1.11716e-15 -4.44089e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__15.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_16 -->
+    <visual>
+      <origin xyz="0.0302391 0.0583568 -0.0011" rpy="3.14159 -7.4711e-16 -2.83759"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__16.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_16_material">
+        <color rgba="0.596078 0.666667 0.686275 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0302391 0.0583568 -0.0011" rpy="3.14159 -7.4711e-16 -2.83759"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__16.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 290001531_01_jtg_ha_整机数模_带fov_0528_17 -->
+    <visual>
+      <origin xyz="0.0284575 -0.0953338 -0.1197" rpy="-9.91438e-16 -8.87916e-16 -2.92897"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__17.stl"/>
+      </geometry>
+      <material name="290001531_01_jtg_ha_整机数模_带fov_0528_17_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0284575 -0.0953338 -0.1197" rpy="-9.91438e-16 -8.87916e-16 -2.92897"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/290001531_01_jtg_ha_整机数模_带fov_0528__17.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from base_link to assembly_1 -->
+  <joint name="hesai_lidar_link" type="fixed">
+    <origin xyz="0.0687488 0.0733304 0.179312" rpy="-3.14159 -3.27999e-09 -3.21631e-08"/>
+    <parent link="base_link"/>
+    <child link="assembly_1"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10"/>
+  </joint>
+  <!-- Link assembly_1_2 -->
+  <link name="assembly_1_2">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part 31_73_xd_01 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_2 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__2.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_2_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_2 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__2.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_2_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_3 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__3.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_3_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_3 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__3.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_3_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_4 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__4.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_4_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__4.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_4 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__4.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_4_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__4.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_5 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__5.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_5_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__5.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_6 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__6.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_6_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__6.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_7 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__7.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_7_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__7.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_03 -->
+    <visual>
+      <origin xyz="-2.65066e-15 -0.0254135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_03.stl"/>
+      </geometry>
+      <material name="31_73_xd_03_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.65066e-15 -0.0254135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_03.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_5 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__5.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_5_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__5.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_6 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__6.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_6_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__6.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_8 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__8.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_8_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__8.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_9 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__9.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_9_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__9.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_10 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__10.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_10_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__10.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_7 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__7.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_7_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__7.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_8 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__8.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_8_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__8.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_9 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__9.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_9_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__9.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_10 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__10.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_10_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__10.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_11 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__11.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_11_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__11.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_12 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__12.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_12_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__12.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_13 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__13.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_13_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__13.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_14 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__14.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_14_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__14.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_11 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__11.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_11_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__11.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_12 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__12.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_12_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__12.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_06_1 -->
+    <visual>
+      <origin xyz="-0.00487949 -0.0254135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_06_1.stl"/>
+      </geometry>
+      <material name="31_73_xd_06_1_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00487949 -0.0254135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_06_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_15 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__15.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_15_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__15.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_13 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__13.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_13_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__13.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_16 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__16.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_16_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__16.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_17 -->
+    <visual>
+      <origin xyz="-2.65066e-15 -0.0084135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__17.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_17_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.65066e-15 -0.0084135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__17.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_18 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__18.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_18_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__18.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_19 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__19.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_19_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__19.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_20 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__20.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_20_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__20.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_21 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__21.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_21_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__21.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_06 -->
+    <visual>
+      <origin xyz="0.00712051 -0.0254135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_06.stl"/>
+      </geometry>
+      <material name="31_73_xd_06_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00712051 -0.0254135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_06.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_22 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__22.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_22_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__22.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_14 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__14.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_14_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__14.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_15 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__15.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_15_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__15.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_08 -->
+    <visual>
+      <origin xyz="-2.63678e-15 -0.0254135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_08.stl"/>
+      </geometry>
+      <material name="31_73_xd_08_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.63678e-15 -0.0254135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_08.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_16 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__16.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_16_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__16.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_05 -->
+    <visual>
+      <origin xyz="0.00112051 -0.0254135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_05.stl"/>
+      </geometry>
+      <material name="31_73_xd_05_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00112051 -0.0254135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_05.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_17 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__17.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_17_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__17.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_07 -->
+    <visual>
+      <origin xyz="0.0011 -0.0254135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_07.stl"/>
+      </geometry>
+      <material name="31_73_xd_07_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0011 -0.0254135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_07.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_18 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__18.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_18_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__18.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_23 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__23.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_23_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__23.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_24 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__24.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_24_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__24.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_25 -->
+    <visual>
+      <origin xyz="-2.66454e-15 -0.0158135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__25.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_25_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.66454e-15 -0.0158135 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__25.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_26 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__26.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_26_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__26.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_27 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__27.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_27_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__27.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_28 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__28.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_28_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__28.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_19 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__19.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_19_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__19.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_02 -->
+    <visual>
+      <origin xyz="-2.67841e-15 -0.0184 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_02.stl"/>
+      </geometry>
+      <material name="31_73_xd_02_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.67841e-15 -0.0184 -0.05715" rpy="3.14159 -3.36448e-08 -3.14159"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_02.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_20 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__20.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_20_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__20.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_29 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__29.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_29_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__29.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_30 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__30.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_30_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__30.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_01_21 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__21.stl"/>
+      </geometry>
+      <material name="31_73_xd_01_21_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_01__21.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_31 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__31.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_31_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__31.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 31_73_xd_04_32 -->
+    <visual>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__32.stl"/>
+      </geometry>
+      <material name="31_73_xd_04_32_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-17 -0.0144 -0.05715" rpy="0 1.21431e-16 4.1359e-25"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/31_73_xd_04__32.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from base_link to assembly_1_2 -->
+  <joint name="caster_link" type="fixed">
+    <origin xyz="0.0687488 0.20333 0.000312354" rpy="1.5708 3.27998e-09 3.14159"/>
+    <parent link="base_link"/>
+    <child link="assembly_1_2"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10"/>
+  </joint>
+  <!-- Link odrive -->
+  <link name="odrive">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part scr_047004_____t10___m3x8_8 -->
+    <visual>
+      <origin xyz="-1.60982e-15 -9.71445e-16 -0.008675" rpy="3.14159 -1.31009e-16 1.76634e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_8.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_8_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.60982e-15 -9.71445e-16 -0.008675" rpy="3.14159 -1.31009e-16 1.76634e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_8.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part bkt_105002 -->
+    <visual>
+      <origin xyz="-1.38778e-16 4.16334e-17 -0.008675" rpy="3.14159 -1.08457e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/bkt_105002.stl"/>
+      </geometry>
+      <material name="bkt_105002_material">
+        <color rgba="0.6 0.6 0.6 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.38778e-16 4.16334e-17 -0.008675" rpy="3.14159 -1.08457e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/bkt_105002.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_6 -->
+    <visual>
+      <origin xyz="0.030931 0.0212825 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_6.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_6_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.030931 0.0212825 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_6.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_4 -->
+    <visual>
+      <origin xyz="-0.0279675 0.0942329 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_4.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_4_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0279675 0.0942329 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_4.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_5 -->
+    <visual>
+      <origin xyz="0.0375332 -0.000962895 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_5.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_5_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0375332 -0.000962895 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_5.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_2 -->
+    <visual>
+      <origin xyz="-0.0375332 0.000962895 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_2.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_2_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0375332 0.000962895 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_1 -->
+    <visual>
+      <origin xyz="0.0106826 -0.0359938 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_1.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_1_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0106826 -0.0359938 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_7 -->
+    <visual>
+      <origin xyz="4.30211e-16 -7.97973e-16 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_7.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_7_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="4.30211e-16 -7.97973e-16 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_7.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part sht_105001 -->
+    <visual>
+      <origin xyz="-2.77556e-17 -6.93889e-18 0" rpy="3.14159 -1.46217e-24 4.52986e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/sht_105001.stl"/>
+      </geometry>
+      <material name="sht_105001_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.77556e-17 -6.93889e-18 0" rpy="3.14159 -1.46217e-24 4.52986e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/sht_105001.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8 -->
+    <visual>
+      <origin xyz="-0.0434452 -0.0566811 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0434452 -0.0566811 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_7_2 -->
+    <visual>
+      <origin xyz="0.0106826 -0.0359938 -0.009175" rpy="3.14159 -1.10843e-16 1.0814e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_7.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_7_2_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0106826 -0.0359938 -0.009175" rpy="3.14159 -1.10843e-16 1.0814e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_7.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part  -->
+    <visual>
+      <origin xyz="-2.08167e-16 2.08167e-17 -0.008675" rpy="3.14159 -9.58807e-17 9.14734e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/.stl"/>
+      </geometry>
+      <material name="_material">
+        <color rgba="0.6 0.6 0.6 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.08167e-16 2.08167e-17 -0.008675" rpy="3.14159 -9.58807e-17 9.14734e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_3 -->
+    <visual>
+      <origin xyz="-0.0106826 0.0359938 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_3.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_3_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0106826 0.0359938 -0.008675" rpy="3.14159 -1.09108e-16 1.12302e-15"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part who_105002_____װ___ã -->
+    <visual>
+      <origin xyz="-1.80411e-16 1.38778e-17 -0.006375" rpy="3.14159 -5.07779e-17 7.57441e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/who_105002_____װ___ã.stl"/>
+      </geometry>
+      <material name="who_105002_____װ___ã_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.80411e-16 1.38778e-17 -0.006375" rpy="3.14159 -5.07779e-17 7.57441e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/who_105002_____װ___ã.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from base_link to odrive -->
+  <joint name="wheel_right_link" type="continuous">
+    <origin xyz="-0.0512512 -0.11667 -0.0431876" rpy="1.5708 -0.783593 1.5708"/>
+    <parent link="base_link"/>
+    <child link="odrive"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10"/>
+  </joint>
+  <!-- Link odrive_2 -->
+  <link name="odrive_2">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part scr_047004_____t10___m3x8_8_2 -->
+    <visual>
+      <origin xyz="-1.22125e-15 -5.27356e-16 -0.008175" rpy="3.14159 -3.26871e-17 7.61413e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_8.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_8_2_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.22125e-15 -5.27356e-16 -0.008175" rpy="3.14159 -3.26871e-17 7.61413e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_8.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part bkt_105002_2 -->
+    <visual>
+      <origin xyz="-1.249e-16 2.77556e-17 -0.008175" rpy="3.14159 -9.9189e-18 8.96428e-24"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/bkt_105002.stl"/>
+      </geometry>
+      <material name="bkt_105002_2_material">
+        <color rgba="0.6 0.6 0.6 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.249e-16 2.77556e-17 -0.008175" rpy="3.14159 -9.9189e-18 8.96428e-24"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/bkt_105002.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_6_2 -->
+    <visual>
+      <origin xyz="0.030931 0.0212825 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_6.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_6_2_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.030931 0.0212825 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_6.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_4_2 -->
+    <visual>
+      <origin xyz="-0.0279675 0.0942329 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_4.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_4_2_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0279675 0.0942329 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_4.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_5_2 -->
+    <visual>
+      <origin xyz="0.0375332 -0.000962895 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_5.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_5_2_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0375332 -0.000962895 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_5.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_2_2 -->
+    <visual>
+      <origin xyz="-0.0375332 0.000962895 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_2.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_2_2_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0375332 0.000962895 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_1_2 -->
+    <visual>
+      <origin xyz="0.0106826 -0.0359938 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_1.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_1_2_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0106826 -0.0359938 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_7_3 -->
+    <visual>
+      <origin xyz="4.57967e-16 -8.04912e-16 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_7.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_7_3_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="4.57967e-16 -8.04912e-16 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_7.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part sht_105001_2 -->
+    <visual>
+      <origin xyz="-6.93889e-18 -1.38778e-17 0.0005" rpy="3.14159 -1.79674e-25 -4.60587e-24"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/sht_105001.stl"/>
+      </geometry>
+      <material name="sht_105001_2_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-6.93889e-18 -1.38778e-17 0.0005" rpy="3.14159 -1.79674e-25 -4.60587e-24"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/sht_105001.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_2 -->
+    <visual>
+      <origin xyz="-0.0434452 -0.0566811 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_2_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0434452 -0.0566811 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_7_4 -->
+    <visual>
+      <origin xyz="0.0106826 -0.0359938 -0.008675" rpy="3.14159 -1.2521e-17 8.15837e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_7.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_7_4_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0106826 -0.0359938 -0.008675" rpy="3.14159 -1.2521e-17 8.15837e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_7.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part _2 -->
+    <visual>
+      <origin xyz="-1.80411e-16 1.38778e-17 -0.008175" rpy="-3.14159 2.65784e-18 -2.44824e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/.stl"/>
+      </geometry>
+      <material name="_2_material">
+        <color rgba="0.6 0.6 0.6 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.80411e-16 1.38778e-17 -0.008175" rpy="-3.14159 2.65784e-18 -2.44824e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part scr_047004_____t10___m3x8_3_2 -->
+    <visual>
+      <origin xyz="-0.0106826 0.0359938 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_3.stl"/>
+      </geometry>
+      <material name="scr_047004_____t10___m3x8_3_2_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0106826 0.0359938 -0.008175" rpy="3.14159 -1.07863e-17 2.71946e-17"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/scr_047004_____t10___m3x8_3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part who_105002_____װ___ã_2 -->
+    <visual>
+      <origin xyz="-1.59595e-16 1.38778e-17 -0.005875" rpy="3.14159 4.75438e-17 -2.44824e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/who_105002_____װ___ã.stl"/>
+      </geometry>
+      <material name="who_105002_____װ___ã_2_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.59595e-16 1.38778e-17 -0.005875" rpy="3.14159 4.75438e-17 -2.44824e-16"/>
+      <geometry>
+        <mesh filename="package://amr_description/amr/assets/who_105002_____װ___ã.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from base_link to odrive_2 -->
+  <joint name="wheel_left_link" type="continuous">
+    <origin xyz="0.189249 -0.11667 -0.0431876" rpy="-3.14159 1.5708 0"/>
+    <parent link="base_link"/>
+    <child link="odrive_2"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10"/>
+  </joint>
+</robot>

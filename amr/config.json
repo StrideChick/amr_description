@@ -1,0 +1,8 @@
+{
+  "url": "https://cad.onshape.com/documents/a09fd05328fc366efe3f9ac6/w/752f0728bc86dcc6a03ab521/e/eda93f739a62957b3c4e2655",
+  "outputFormat": "urdf", 
+  "output_filename": "amr",
+  "asset_dir": "assets",
+  "packageName": "amr_description/amr",
+  "robotName": "amr"
+}
